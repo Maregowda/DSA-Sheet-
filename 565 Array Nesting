@@ -1,3 +1,4 @@
+/*
 You are given an integer array nums of length n where nums is a permutation of the numbers in the range [0, n - 1].
 
 You should build a set s[k] = {nums[k], nums[nums[k]], nums[nums[nums[k]]], ... } subjected to the following rule:
@@ -15,6 +16,7 @@ nums[0] = 5, nums[1] = 4, nums[2] = 0, nums[3] = 3, nums[4] = 1, nums[5] = 6, nu
 One of the longest sets s[k]:
 s[0] = {nums[0], nums[5], nums[6], nums[2]} = {5, 6, 2, 0}
 
+*/
 
 class Solution {
     public int arrayNesting(int[] nums) {
